@@ -1,0 +1,18 @@
+dirty@Despot MINGW64 ~
+$ vi /tmp/file.txt
+
+dirty@Despot MINGW64 ~
+$ df -h | head -n 3 > /tmp/file.txt
+
+dirty@Despot MINGW64 ~
+$ chmod g+w /tmp/file.txt
+
+dirty@Despot MINGW64 ~
+$ chmod u-r /tmp/file.txt
+
+dirty@Despot MINGW64 ~
+$ chmod o+x /tmp/file.txt
+
+dirty@Despot MINGW64 ~
+$ ls -l /tmp/file.txt
+-rw-r--r-- 1 dirty 197609 101 Nov 25 19:42 /tmp/file.txt
