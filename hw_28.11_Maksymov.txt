@@ -1,0 +1,30 @@
+[ec2-user@ip-172-31-33-20 Pavel-M]$ ls
+myfirstbashscript.sh.save  pavel.sh  pavel_test.txt
+[ec2-user@ip-172-31-33-20 Pavel-M]$ vim myfirstbashscript.sh
+[ec2-user@ip-172-31-33-20 Pavel-M]$ ls
+myfirstbashscript.sh  myfirstbashscript.sh.save  pavel.sh  pavel_test.txt
+[ec2-user@ip-172-31-33-20 Pavel-M]$ chmod +x myfirstbashscript.sh
+[ec2-user@ip-172-31-33-20 Pavel-M]$ ./myfirstbashscript.sh
+Текущая дата: Thu Dec  5 19:18:37 UTC 2024
+Hello ec2-user!
+Рабочая директория: /opt/081024_morning/Pavel-M
+wc: invalid option -- '1'
+Try 'wc --help' for more information.
+Колл-во процессов с именем bioset:
+Права на файл: -rw-r--r--
+[ec2-user@ip-172-31-33-20 Pavel-M]$ ./myfirstbashscript.sh
+Текущая дата: Thu Dec  5 19:19:22 UTC 2024
+Hello ec2-user!
+Рабочая директория: /opt/081024_morning/Pavel-M
+wc: invalid option -- '1'
+Try 'wc --help' for more information.
+Колл-во процессов с именем bioset:
+Права на файл: -rw-r--r--
+[ec2-user@ip-172-31-33-20 Pavel-M]$ vi myfirstbashscript.sh
+[ec2-user@ip-172-31-33-20 Pavel-M]$ ./myfirstbashscript.sh
+Текущая дата: Thu Dec  5 19:23:00 UTC 2024
+Hello ec2-user!
+Рабочая директория: /opt/081024_morning/Pavel-M
+Колл-во процессов: 125
+Колл-во процессов с именем bioset: 0
+Права на файл: -rw-r--r--
