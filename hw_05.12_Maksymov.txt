@@ -1,0 +1,89 @@
+[ec2-user@ip-172-31-33-20 Pavel-M]$ vim sleeper.sh
+[ec2-user@ip-172-31-33-20 Pavel-M]$ vim sleeper.sh
+[ec2-user@ip-172-31-33-20 Pavel-M]$ vi sleeper.sh
+[ec2-user@ip-172-31-33-20 Pavel-M]$ rm sleeper.sh
+[ec2-user@ip-172-31-33-20 Pavel-M]$ vim sleeper.sh
+[ec2-user@ip-172-31-33-20 Pavel-M]$ chmod +x sleeper.sh
+[ec2-user@ip-172-31-33-20 Pavel-M]$ ls
+myfirstbashscript.sh       pavel.sh        processor_info.txt
+myfirstbashscript.sh.save  pavel_test.txt  sleeper.sh
+[ec2-user@ip-172-31-33-20 Pavel-M]$ ./sleeper.sh
+11:05:51 - Количество процессов: 112
+11:05:56 - Количество процессов: 112
+11:06:01 - Количество процессов: 113
+cat11:06:06 - Количество процессов: 113
+11:06:11 - Количество процессов: 113
+11:06:16 - Количество процессов: 113
+11:06:21 - Количество процессов: 113
+11:06:26 - Количество процессов: 113
+11:06:31 - Количество процессов: 113
+11:06:36 - Количество процессов: 113
+[ec2-user@ip-172-31-33-20 Pavel-M]$ cat processor_info.txt
+processor       : 0
+vendor_id       : AuthenticAMD
+cpu family      : 23
+model           : 1
+model name      : AMD EPYC 7571
+stepping        : 2
+microcode       : 0x800126e
+cpu MHz         : 2199.988
+cache size      : 512 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch topoext vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr arat npt nrip_save
+bugs            : sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso div0
+bogomips        : 4399.97
+TLB size        : 2560 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management:
+
+processor       : 1
+vendor_id       : AuthenticAMD
+cpu family      : 23
+model           : 1
+model name      : AMD EPYC 7571
+stepping        : 2
+microcode       : 0x800126e
+cpu MHz         : 2199.988
+cache size      : 512 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 1
+initial apicid  : 1
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch topoext vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr arat npt nrip_save
+bugs            : sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso div0
+bogomips        : 4399.97
+TLB size        : 2560 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management:
+
+[ec2-user@ip-172-31-33-20 Pavel-M]$ cat os_info.txt
+NAME="Amazon Linux"
+[ec2-user@ip-172-31-33-20 Pavel-M]$ cat os_name.txt
+Amazon Linux
+[ec2-user@ip-172-31-33-20 Pavel-M]$ ls
+100.txt  56.txt  63.txt  70.txt  77.txt  84.txt  91.txt  98.txt                     pavel_test.txt
+50.txt   57.txt  64.txt  71.txt  78.txt  85.txt  92.txt  99.txt                     processor_info.txt
+51.txt   58.txt  65.txt  72.txt  79.txt  86.txt  93.txt  myfirstbashscript.sh       sleeper.sh
+52.txt   59.txt  66.txt  73.txt  80.txt  87.txt  94.txt  myfirstbashscript.sh.save
+53.txt   60.txt  67.txt  74.txt  81.txt  88.txt  95.txt  os_info.txt
+54.txt   61.txt  68.txt  75.txt  82.txt  89.txt  96.txt  os_name.txt
+55.txt   62.txt  69.txt  76.txt  83.txt  90.txt  97.txt  pavel.sh
