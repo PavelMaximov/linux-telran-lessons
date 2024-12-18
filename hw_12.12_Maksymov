@@ -1,0 +1,29 @@
+[ec2-user@ip-172-31-33-20 Pavel-M]$ vim fullscript.sh
+[ec2-user@ip-172-31-33-20 Pavel-M]$ chmod +x fullscript.sh
+[ec2-user@ip-172-31-33-20 Pavel-M]$ sudo mv fullscript.sh /usr/local/bin
+[ec2-user@ip-172-31-33-20 Pavel-M]$ fullscript.sh
+Hello Student!
+Enter your name
+Pavel
+Welcome to terminal Pavel
+Сохраняем данные
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Data saved. continue work
+1
+2
+3
+4
+5
+Well done Boss
+Файл исполняем из любого места в системе
+Guten Morgen Mein lieber Freund
+[ec2-user@ip-172-31-33-20 Pavel-M]$
