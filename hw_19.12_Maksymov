@@ -1,0 +1,40 @@
+[ec2-user@ip-172-31-33-20 Pavel-M]$ vim task_NAME.sh
+[ec2-user@ip-172-31-33-20 Pavel-M]$ chmod +x task_NAME.sh
+[ec2-user@ip-172-31-33-20 Pavel-M]$ crontab -e
+crontab: installing new crontab
+[ec2-user@ip-172-31-33-20 Pavel-M]$ crontab -l
+#*/15 * * * * /opt/081024_morning/NataliaP/NataliaPeremyshlennikova/task_NataliaP.sh
+# */15 * * * * /opt/130824_morning/roman_dogoda/task_roman.sh
+# *3/15 * * * * /opt/250324_evening/IrinaKis/taskIRINA1.sh >> /opt/250324_evening/IrinaKis/logs1.log
+# */15 * * * * /opt/260324_morning/elena/taskELENA.sh
+# */15 * * * * /opt/250324_evening/Vdream/taskDMITRIJ.sh
+# */15 * * * * /opt/260324_morning/mariia_shi/taskMARIA.sh
+# */15 * * * * /opt/260324_morning/Andrii_F/taskAndrii.sh
+# */15 * * * * /opt/260324_morning/Beidel/taskBeidel.sh
+# */15 * * * * /opt/260324_morning/iliaBololo/taskIlia.sh
+# */15 * * * *  /opt/260324_morning/PokazachenkoIryna/taskIrynaP.sh
+# */15 * * * * /opt/260324_morning/Margot/taskMargot.sh
+# 0 0 1 * * /opt/260324_morning/PokazachenkoIryna/script0706.sh
+# 55 11 07 08 * /opt/21052024_morning/Olga_Ziabko/today.sh
+# 0 1 * * * /opt/21052024_morning/Olga_Ziabko/archive1.sh
+#Natalia_Gordiyenko 130824
+#15 * * * * /opt/21052024_morning/Natalia_Gordiyenko/task_Nata.sh
+#*/15 * * * * /opt/21052024_morning/Anton_SB/Anton/task_Anton.sh >> /opt/21052024_morning/Anton_SB/Anton/task_Anton.log 2>&1
+#*/15 * * * * /opt/21052024_morning"Keduk Karyna"/task_Karyna.sh
+#15 * * * *  /opt/21052024_morning/Shurinova/task_Elena.sh
+#*/15 * * * * /opt/09072024_morning/DeyanSpasov/taskLesson18Deyan.sh
+
+#* * * * * /opt/09072024_morning/DeyanSpasov/crontabUbung.sh >> /opt/09072024_morning/DeyanSpasov/test_dir/file3.txt
+#*/15 * * * * /opt/09072024_morning/Yevhen_Kariev/task_Kariev.sh
+#*/15 * * * * /opt/09072024_morning/BI_OKSANA/task_OKSANA.sh
+# */15 * * * */opt/130824_morning/serhii_kurlykin/task_Serhii_Kurlykin.sh
+#*/15 * * * * /opt/130824_morning/Anton_SB/Anton/task_Anton.sh
+# 15 * * * * /opt/130824_morning/ella/task_ELLA.sh
+#*/15 * * * * /opt/130824_morning/Andrii_Boiko/Andrii/task_Andrii.sh
+#15 * * * * /opt/130824_morning/Kateryna_Vasylenko/task_KATERYNA.sh
+#*/15 * * * * /opt/130824_morning/yuliya_fralova/task_YULIYA.sh
+#*/15 * * * * /opt/130824_morning/Max/Maksims/task_Max.sh
+#*/15 * * * * /opt/130824_morning/Alexandra_Kuzhner/task_NAME.sh
+#*/15 * * * * /opt/081024_morning/lussiyer/Liudmyla/task_Liudmyla.sh
+#*/15 * * * * /opt/081024_morning/KondratenkoN/task_Natalia.sh
+#*/15 * * * * /opt/081024_morning/Pavel-M/task_NAME.sh
